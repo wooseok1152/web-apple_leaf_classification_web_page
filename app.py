@@ -5,6 +5,7 @@ from PIL import Image
 import numpy as np
 import time
 import os
+
 IMG_FOLDER= os.path.join('static', 'img')
 
 app = Flask(__name__)
@@ -66,4 +67,4 @@ def add_header(r):
    return r
 
 if __name__ == '__main__':  
-   app.run('0.0.0.0',port=5000,debug=True)
+   app.run('0.0.0.0',port=3000,debug=True)
